@@ -1,6 +1,6 @@
 internal sealed partial class Program
 {
-    private static void PrintHelp() =>
+    internal static void PrintHelp() =>
         Console.WriteLine(
             @"Two-pass MP3 loudness normalization (EBU R128 / FFmpeg loudnorm)
 
